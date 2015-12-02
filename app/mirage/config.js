@@ -1,4 +1,8 @@
 export default function() {
+  // this.namespace = '/api';
+
+  this.get('/entries');
+  this.post('/entries:id');
 
   // These comments are here to help you get started. Feel free to delete them.
 
